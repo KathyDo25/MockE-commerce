@@ -1,0 +1,135 @@
+
+body {
+    font-family:"Lora", serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #808080;
+}
+.resize{
+    width: 300px;
+    height: 300px;
+}
+.hero-banner {
+    background: url('https://images.unsplash.com/photo-1671159593357-ee577a598f71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+    background-size: cover;
+    color: goldenrod;
+    text-align: center;
+    font-size: 40pt;
+    padding: 50px 20px;
+}
+
+
+.content-section, .card-section, .video-section {
+    padding: 80px;
+    text-align: center;
+    font-size: 24pt;
+    margin: 20px;
+}
+.content-section{
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    background-color: #ebedee;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    margin-top: 100px;
+}
+
+.big-picture {
+    max-width: 60%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+
+.small-picture {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.text-below {
+    margin-top: 20pt;
+    text-align: center;
+    font-family: "Playwrite RO", cursive;
+    color: white;
+    font-size: 20pt;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 70px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.video-section{
+    height: 50%;
+    padding: 40px;
+    text-align: center;
+    font-size: 24pt;
+    height: auto;
+}
+
+.accordion-section{
+    margin-top: -3%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 24pt;
+    padding: 40px;
+    margin: 20px;
+}
+
+.accordion-button {
+    width: 100%;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right:  50px;
+    text-align: center;
+    font-size: 14pt;
+    background-color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin: 10px
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: goldenrod;
+    text-align: center;
+    padding: 40px;
+}
+
